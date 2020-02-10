@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(150, 150, 150);
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 15px;
+}
+body {
+    background: rgb(45, 50, 55);
+}
+header {
+    position: relative;
+    background: rgb(25, 30, 35);
+    text-align: center;
+    height: 135px;
+}
+header .logo {
+    position: relative;
+    background: rgb(150, 150, 150);
+    height: 70px;
+    width: 210px;
+    left: 50%;
+    transform: translate(-50%);
+}
+nav a {
+    display: inline-block;
+    position: relative;
+    border: 1px solid rgb(150, 150, 150);
+    top: 5px;
+    width: 150px;
+    padding: 10px 30px;
+    margin: 10px 5px;
+    text-decoration: none;
+    transition: ease-in-out .2s;
+}
+nav a:hover {
+    color: darkred;
+    border: 1px solid darkred;
+    transition: ease-in-out .2s;
+}
+main {
+    background: rgb(25, 30, 35);
+    margin: 10px;
+    text-align: center;
+    min-width: 1000px;
+}
+main section a {
+    position: relative;
+    background: rgb(150, 150, 150);
+    border-radius: 15px;
+    overflow: hidden;
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    height: 175px;
+    padding: 10px;
+    margin: 5px;
+}
+main section a div {
+    position: relative;
+    background: rgb(25, 30, 35);
+    width: 180px;
+    height: 140px;
+}
+main section a div img {
+    width: 100%;
+}
+main section a h3 {
+    color: rgb(45, 50, 55);
+}
+main .player {
+    position: relative;
+    margin: auto;
+}
